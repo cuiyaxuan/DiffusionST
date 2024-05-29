@@ -6,6 +6,8 @@
 # Identifying spatial domains
 ##### Using python virtual environment with conda. Please create a Pytorch environment, install Pytorch and some other packages, such as "numpy","pandas", "scikit-learn" and "scanpy". See the requirements.txt file for an overview of the packages in the environment we used to produce our results. Alternatively, you can install the environment dependencies in the following sequence to minimize environment conflicts. <br>
 
+##### Configure the corresponding R language environment and install the mclust package.
+
 ```R
 conda create -n DiffusionST
 source activate DiffusionST
