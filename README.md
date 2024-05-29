@@ -19,11 +19,18 @@ conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvi
 pip install scanpy
 pip install anndata==0.8.0
 pip install pandas==1.4.2
-
+pip install rpy2==3.5.1
 pip install rpy2==3.5.1
 pip install scikit-learn==1.1.1
 pip install scipy==1.8.1
 pip install tqdm==4.64.0
 pip install einops
+
+```
+```R
+import rpy2.robjects as robjects
+robjects.r('''
+install.packages('mclust')
+           ''')
 
 ```
