@@ -1,4 +1,4 @@
-# Imputation and clustering of spatial information in spatial transcriptomics with DiffusionST
+# DiffusionST: A diffusion model-based framework for enhancing spatial transcriptomics data quality and identifying spatial domains![image](https://github.com/cuiyaxuan/DiffusionST/assets/35548337/750286b0-1cef-4e5e-b4fc-3bf83ffe68c4)
 ![image](https://github.com/cuiyaxuan/DiffusionST/blob/main/workflow.png)
 ## Tip: To facilitate researchers' usage, examples of our project can be run in the folder's IPython notebooks (after configuring the environment dependencies as described in the README). <br>
 
